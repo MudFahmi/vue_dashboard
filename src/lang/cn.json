@@ -1,0 +1,21 @@
+{
+  "dashboard"  : "板",
+  "data_view" : "數據視圖",
+  "analysis"  : "分析",
+  "language"  : "語言",
+  "details"   : "細節",
+  "sign_out"  : "登出",
+  "settings"  : "设置",
+  "export_as_pdf" : " 製作 PDF",
+  "export_as_excel" : "製作 Excel",
+  "theme"         : "主題",
+  "view_charts"   : "查看圖表",
+  "view"       :"節目",
+  "close"      :"關閉",
+  "reset"   :"重啟",
+  "bar_chart_based_on_sections" : " 基於的條形圖 Sections",
+  "bar_chart_based_on_degrees" : "基於的條形圖 Degrees",
+  "bar_chart_based_on_gender" : " 基於的條形圖 Gender",
+  "Process_Your_Selection":"裝載...",
+  "search":"搜索"
+  }

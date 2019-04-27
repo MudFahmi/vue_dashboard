@@ -1,0 +1,186 @@
+.evorezm_logo img {
+  width: 150px;
+  height: auto;
+}
+
+.evopams_logo img {
+  width: 150px;
+  height: auto;
+}
+.mynavbar
+{
+  height: 64px !important;
+  background-color: #262626 !important;
+}
+.mynavbar .navbar-brand
+{
+  color: white;
+}
+
+.mynavbar .navbar-brand:hover
+{
+  color: gray;
+}
+
+.mobile {
+  text-align: center;
+}
+
+.add-number {
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+.mobile .evopams-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body>div>div>div {
+  text-align: center;
+}
+
+#id_auth-username,
+#id_auth-password,
+#id_token-otp_token,
+#id_setup-number,
+#id_validation-token,
+#id_generator-token,
+#id_backup-otp_token,
+#id_sms-number,
+.alert-danger,
+.mobile-form>form>p>button {
+  width: 40%;
+  margin: 0 30%;
+}
+
+body>div.container>div>div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+body>div>div>div>h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url("/static/bg-login.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "PFBeauSansPro" !important;
+}
+
+.settings-page {
+  margin: 0 0;
+}
+.settings-page h1, h2, h3, a {
+  font-family: "PFBeauSansPro";
+}
+.submit_btn {
+  margin-right: 25%;
+  width: 20%;
+  overflow: auto;
+}
+
+.back_btn {
+  margin-left: 25%;
+  width: 20%;
+  overflow: auto;
+  background-color:#A9A9A9 !important;
+}
+
+.submit_btn_alone {
+  width: 40%;
+  overflow: auto;
+}
+.navbar-btn{
+  background-color: #2A2A2A !important; 
+  text-decoration: none !important;
+}
+
+.navbar-btn:hover{
+  text-decoration: none !important;
+}
+@font-face {
+  font-family: "PFBeauSansPro";
+  src: url('/static/fonts/PFBeauSansPro-Regular-W-edition.ttf');
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+
+  .evorezm_logo img {
+    width: 75px;
+  }
+
+  .evopams_logo img {
+    width: 75px !important;
+    height: auto;
+  }
+
+  .mobile {
+    text-align: center;
+    width: 500px;
+  }
+
+  .login_title {
+    font-size: 20px;
+  }
+
+  .mobile .evopams-brand {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .mobile p {
+    text-align: center;
+  }
+
+  #id_auth-username,
+  #id_auth-password,
+  #id_token-otp_token,
+  #id_setup-number,
+  #id_validation-token,
+  .alert-danger,
+  #id_generator-token,
+  #id_backup-otp_token,
+  #id_sms-number,
+  .mobile-form>form>p>button {
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .add-number {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  .form_actions {
+    margin: 0;
+    padding: 0;
+  }
+
+  .submit_btn {
+    margin-right: 0;
+    width: 40%;
+  }
+
+  .back_btn {
+    margin-left: 0;
+    width: 40%;
+  }
+
+  .submit_btn_alone {
+    width: 80%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,133 @@
+<template >
+
+<v-container my-5>
+  
+<v-card >
+  
+  <v-layout justify-center pt-5 pb-5>
+  <v-flex  sm6 >
+  <v-card-title ><span ml-5><v-icon x-large>account_circle</v-icon></span><h2>Login</h2></v-card-title>
+  <v-card-text>
+  <v-form >
+    
+
+    <v-alert
+      :value="checkError"
+      type="error"
+    >
+      Wrong Credintials.
+    </v-alert>
+
+    <v-text-field
+      v-model="email"
+      :error-messages="emailErrors"
+      label="E-mail"
+      required
+      @input="$v.email.$touch()"
+      @blur="$v.email.$touch()"
+    ></v-text-field>
+    
+    <v-text-field
+      :type="'password'"
+      v-model="password"
+      :error-messages="passwordErrors"
+      label="Password"
+      required
+      @input="$v.password.$touch()"
+      @blur="$v.password.$touch()"
+    ></v-text-field>
+    
+    <v-checkbox
+      v-model="checkbox"
+      :error-messages="checkboxErrors"
+      label="I have read privacy policy "
+      required
+      @change="$v.checkbox.$touch()"
+      @blur="$v.checkbox.$touch()"
+    ></v-checkbox>
+    
+    <v-btn primary @click="submit"  >Login</v-btn>
+   
+  </v-form>
+  </v-card-text>
+  </v-flex>
+  </v-layout>
+</v-card>
+</v-container>
+
+</template>
+
+<script>
+  import { validationMixin } from 'vuelidate'
+  import { required, email } from 'vuelidate/lib/validators'
+  export default {
+    mixins: [validationMixin],
+    validations: {
+      
+      email: { required },
+      password: { required },
+      checkbox: {
+        checked (val) {
+          return val
+        }
+      }
+    },
+    data: () => ({
+      password: '',
+      email: '',
+
+      errorLogin:'',
+      
+      checkbox: false
+    }),
+    computed: {
+      checkboxErrors () {
+        const errors = []
+        if (!this.$v.checkbox.$dirty) return errors
+        !this.$v.checkbox.checked && errors.push('You must agree to continue!')
+        return errors
+      },
+      
+      passwordErrors () {
+        const errors = []
+        if (!this.$v.password.$dirty) return errors
+        !this.$v.password.required && errors.push('Password is required.')
+        return errors
+      },
+      emailErrors () {
+        const errors = []
+        if (!this.$v.email.$dirty) return errors
+        !this.$v.email.required && errors.push('Username or Email is required')
+        return errors
+      },
+
+      checkError: function () {
+     
+      if(this.$store.state.status){
+
+       
+        return true
+      }
+      }
+
+     
+    },
+   
+    methods: {
+      submit () {
+        this.$v.$touch()
+
+        if(this.email && this.password && this.checkbox){
+
+
+        this.$store.dispatch('login', { username_or_email : this.email, password : this.password })
+               .then(() => this.$router.push('/'))
+               .catch(err => console.log(err))
+
+        }
+      },
+      
+    }
+  }
+</script>
+

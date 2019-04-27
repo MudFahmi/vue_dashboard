@@ -1,0 +1,22 @@
+
+{
+"dashboard"  : "Dashboard",
+"data_view" : "Data View",
+"analysis"  : "Analysis",
+"language"  : "Language",
+"details"   : "Details",
+"sign_out"  : "Sign out",
+"settings"  : "Settings",
+"export_as_pdf" : "Export As PDF",
+"export_as_excel" : "Export As Excel File",
+"theme"         : "Theme",
+"view_charts"   : "View Charts",
+"view"       :"View",
+"close"      :"Close",
+"reset"   :"Reset",
+"bar_chart_based_on_sections" : "Bar Chart based on Sections",
+"bar_chart_based_on_degrees" : "Bar Chart based on Degrees",
+"bar_chart_based_on_gender" : "Bar Chart based on Gender",
+"Process_Your_Selection":"Processing your selection...",
+"search":"Search"
+}

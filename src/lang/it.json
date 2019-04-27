@@ -1,0 +1,21 @@
+{
+    "dashboard"  : "Cruscotto",
+    "data_view" : "Vista dati",
+    "analysis"  : "Analisi",
+    "language"  : "Linguaggio",
+    "details"   : "Dettagli",
+    "sign_out"  : "Disconnessione",
+    "settings"  : "impostazioni",
+    "export_as_pdf" : " produrre PDF",
+    "export_as_excel" : "produrre Excel ",
+    "theme"         : "Tema",
+    "view_charts"   : "Visualizza i grafici",
+    "view"       :"Mostrare",
+    "close"      :"Chiuso",
+    "reset"   :"Reset",
+    "bar_chart_based_on_sections" : " grafico a barre basato su Sections",
+    "bar_chart_based_on_degrees" : " grafico a barre basato su Degrees",
+    "bar_chart_based_on_gender" : " grafico a barre basato su Gender",
+    "Process_Your_Selection":"in lavorazione...",
+    "search":"Ricerca"
+    }

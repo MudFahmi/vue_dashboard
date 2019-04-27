@@ -1,0 +1,21 @@
+{
+  "dashboard"  : "tablero",
+  "data_view" : "vista de datos",
+  "analysis"  : "Análisis",
+  "language"  : "Idioma",
+  "details"   : "Detalles",
+  "sign_out"  : "Desconectar",
+  "settings"  : "Ajustes",
+  "export_as_pdf" : " Produce PDF",
+  "export_as_excel" : "Produce Excel ",
+  "theme"         : "Tema",
+  "view_charts"   : "Mostrar gráficos",
+  "view"       :"Cuadros",
+  "close"      :"Cerrar",
+  "reset"   :"Reiniciar",
+  "bar_chart_based_on_sections" : " Gráfico de barras basado en Sections",
+  "bar_chart_based_on_degrees" : " Gráfico de barras basado en Degrees",
+  "bar_chart_based_on_gender" : " Gráfico de barras basado en Gender",
+  "Process_Your_Selection":"Cargando...",
+  "search":"Puscar"
+  }

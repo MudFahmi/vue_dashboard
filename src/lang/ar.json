@@ -1,0 +1,21 @@
+{
+  "dashboard"  : "منصة الاداره",
+  "data_view" : "استعراض البيانات",
+  "analysis"  : "تحليل البيانات",
+  "language"  : "اللغه",
+  "details"   : "التفاصيل",
+  "sign_out"  : "تسجيل الخروج",
+  "settings"  : "الاعدادات",
+  "export_as_pdf" : "PDF تصدير",
+  "export_as_excel" : "Excel تصدير",
+  "theme"         : "السمات",
+  "view_charts"   : "مشاهدة الرسم البياني",
+  "view"       :"عرض",
+  "close"      :"اغلاق",
+  "reset"   :"إعادة تعيين",
+  "bar_chart_based_on_sections" : "Sections رسوم بحسب",
+  "bar_chart_based_on_degrees" : "Degrees رسوم بحسب",
+  "bar_chart_based_on_gender" : "Gender رسوم بحسب",
+  "Process_Your_Selection":"...يتم معالجة طلبك",
+  "search"  :"بحث"
+  }

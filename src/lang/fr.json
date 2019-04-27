@@ -1,0 +1,22 @@
+{
+  "dashboard"  : "Tableau de bord",
+  "data_view" : "Vue de données",
+  "analysis"  : "Analyse",
+  "language"  : "La langue",
+  "details"   : "Détails",
+  "sign_out"  : "Déconnexion",
+  "settings"  : "Réglages",
+  "export_as_pdf" : " Produire PDF",
+  "export_as_excel" : "Produire Excel ",
+  "theme"         : "Thème",
+  "view_charts"   : "graphiques",
+  "view"       :"Montrer",
+  "close"      :"Arrêt",
+  "reset"   :"Réinitialiser",
+  "bar_chart_based_on_sections" : " Diagramme à barres selon Sections",
+  "bar_chart_based_on_degrees" : " Diagramme à barres selon Degrees",
+  "bar_chart_based_on_gender" : " Diagramme à barres selon Gender",
+  "Process_Your_Selection":"Charger...",
+  "search":"Chercher"
+  }
+  
